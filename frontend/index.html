@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detector</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> <!-- Include JavaScript file -->
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="2.jpg" alt="Leaf Background">
+        </div>
+        <div class="content-section">
+            <h1>PLANT LEAF DISEASE DETECTOR</h1>
+            <p>Share a picture of the plant's leaf and get immediate results!</p>
+            
+            <!-- File Upload Form -->
+            <div class="image-upload-box">
+            <input type="file" id="imageUpload" accept="image/*">
+            <!-- Image Preview -->
+            <img id="imagePreview" alt="Uploaded Image Preview" style="max-width: 100%; display: none;">
+            </div>    
+            <!-- Loading spinner -->
+            <div id="loading" style="display: none;">Loading...</div>
+
+            <button class="analyze-btn">ANALYZE</button>
+
+            <!-- Result Section -->
+            <div id="resultSection" style="display: none;">
+                <p id="resultText">Prediction will be displayed here</p>
+                <div id="treatmentText"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

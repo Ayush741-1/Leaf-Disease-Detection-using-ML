@@ -1,0 +1,46 @@
+Here's a brief overview of the technologies used in your project:
+
+1. Python
+Description: A high-level programming language known for its readability and versatility.
+Role: Used for backend development, including data processing, machine learning, and server-side logic.
+
+2. Flask
+Description: A lightweight web framework for Python.
+Role: Provides the server-side functionality to handle HTTP requests, route URLs, and serve the frontend. It's used to build the API endpoints that interact with the machine learning model and provide results to the frontend.
+
+3. TensorFlow
+Description: An open-source machine learning library developed by Google.
+Role: Utilized for building and training the Convolutional Neural Network (CNN) model to detect leaf diseases. TensorFlow helps in defining the model architecture, training it on the dataset, and evaluating its performance.
+
+4. Keras
+Description: An open-source deep learning library that runs on top of TensorFlow.
+Role: Provides an easy-to-use interface for defining and training neural networks. In this project, Keras is used for creating and training the CNN model and loading the trained model for predictions.
+
+5. Convolutional Neural Networks (CNN)
+Description: A class of deep neural networks specifically designed for processing structured grid data like images.
+Role: Used in this project to analyze leaf images and classify them as healthy or diseased. CNNs are effective in extracting features from images and making predictions based on these features.
+
+6. ImageDataGenerator
+Description: A utility class from Keras that allows real-time data augmentation and preprocessing.
+Role: Used for preprocessing images and generating batches of data for training and testing. It helps in rescaling pixel values and augmenting the dataset with transformations like rotations or shifts.
+
+7. HTML/CSS
+Description: Standard technologies for creating and styling web pages.
+Role: HTML is used to structure the frontend of the application, while CSS is used to style it. Together, they create the user interface where users can interact with the model.
+
+8. JavaScript
+Description: A programming language used to create interactive web elements.
+Role: Handles dynamic behavior on the frontend, such as submitting images for prediction and displaying results. It communicates with the Flask server to send and receive data.
+
+9. AJAX (Asynchronous JavaScript and XML)
+Description: A set of web development techniques that allows web pages to be updated asynchronously.
+Role: Used in the frontend JavaScript code to make asynchronous requests to the Flask server without reloading the entire page. It enables smooth and dynamic interactions between the frontend and backend.
+
+10. GitHub
+Description: A platform for version control and collaboration using Git.
+Role: Although not explicitly mentioned, GitHub can be used to manage and share the project code, track changes, and collaborate with others.
+
+11. Jupyter Notebook (Optional)
+Description: An open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text.
+Role: Not directly mentioned in your project but can be used for experimenting with machine learning models and visualizing data during development.
+Each of these technologies plays a crucial role in making the project functional, from backend data processing and machine learning to frontend interaction and user experience.
