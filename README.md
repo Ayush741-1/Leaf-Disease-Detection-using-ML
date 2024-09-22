@@ -1,5 +1,7 @@
 # Leaf Disease Detection Project
 
+DEMO-> https://drive.google.com/file/d/1CjsvdQrfAQZEUfMm74vfqecijrt7IgCl/view?usp=sharing
+
 ## Description
 
 This project aims to detect leaf diseases using machine learning techniques. It utilizes a Convolutional Neural Network (CNN) to classify leaf images into healthy or diseased categories. The web application allows users to upload leaf images and get real-time predictions on whether the leaf is healthy or affected by Alternaria Leaf Spot or other diseases.
